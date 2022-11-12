@@ -18,5 +18,5 @@ set_target_properties( osgdb_dmd
     DEBUG_POSTFIX ""
 )
 
-target_link_libraries(osgdb_dmd Qt5::Core)
+target_link_libraries(osgdb_dmd Qt6::Core)
 target_link_libraries(osgdb_dmd ${OPENSCENEGRAPH_LIBRARIES})
